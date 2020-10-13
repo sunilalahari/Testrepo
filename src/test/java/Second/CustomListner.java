@@ -1,0 +1,53 @@
+package Second;
+
+import java.io.IOException;
+
+import org.testng.ITestContext;
+import org.testng.ITestListener;
+import org.testng.ITestResult;
+
+public class CustomListner extends Base implements ITestListener{
+
+	public void onTestStart(ITestResult result) {
+		// TODO Auto-generated method stub	
+	}
+	public void onTestSuccess(ITestResult result) {
+		// TODO Auto-generated method stub
+		try {
+			takescreenhostPass(result.getMethod().getMethodName());
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	public void onTestFailure(ITestResult result) {
+		// TODO Auto-generated method stub
+		try {
+			System.out.println("test case got failed.." + result.getMethod().getMethodName());
+			takescreenhostFail(result.getMethod().getMethodName());
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}	
+	}
+	public void onTestSkipped(ITestResult result) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void onStart(ITestContext context) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void onFinish(ITestContext context) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
