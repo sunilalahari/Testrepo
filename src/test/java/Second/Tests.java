@@ -2,6 +2,7 @@ package Second;
 
 
 
+
 import org.testng.Assert;
 import org.testng.IClass;
 import org.testng.ITestContext;
@@ -24,9 +25,7 @@ public class Tests extends Base{
 
 	@Test
 	  public void m1() {	
-		
-		
-		 intialization();
+		intialization();
 		 //Assert.fail(); 
 	  }
 	@Test
@@ -34,11 +33,11 @@ public class Tests extends Base{
 		System.out.println("Test m2");
 		
 	}
-	
+	 
 	@Test
-	public void m3(ITestResult result) {
+	public void m3() {
 		System.out.println("Third");
-		if(result.getStatus()==ITestResult.SUCCESS)
+		/*if(result.getStatus()==ITestResult.SUCCESS)
 		{
 			
 		}
@@ -48,6 +47,7 @@ public class Tests extends Base{
 		else if(result.getStatus()==ITestResult.SKIP) {
 			
 		}
+		*/
 		
 	}
 	@AfterSuite
