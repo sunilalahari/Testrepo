@@ -1,5 +1,5 @@
 package Second;
-import org.apache.log4j.Logger;
+
 import org.testng.Assert;
 import org.testng.IClass;
 import org.testng.ITestContext;
@@ -49,10 +49,6 @@ public class Tests extends Base{
 		*/
 		
 	}
-	@AfterSuite
-	public void teardown() {
-		 	
-		driver.close();
-	}
+	
 	
 }
