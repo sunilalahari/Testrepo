@@ -22,9 +22,9 @@ public class Tests extends Base{
 	@Test
 	  public void m1() {	
 		
-		log.info("logged in");
+		//log.info("logged in");
 		intialization();
-		log.info("innitlizattion  ddone");
+		//log.info("innitlizattion  ddone");
 		 //Assert.fail(); 
 	  }
 	@Test

@@ -16,7 +16,7 @@ public class Base {
 	public static WebDriver driver;
 	public static WebDriverWait wait;
 	public static String Browser = "Chrome";
-	public static Logger log = Logger.getLogger(Base.class);
+	//public static Logger log = Logger.getLogger(Base.class);
 	
 	public void intialization() {
 		
