@@ -1,8 +1,5 @@
 package Second;
-
-
-
-
+import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.IClass;
 import org.testng.ITestContext;
@@ -13,6 +10,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
@@ -21,11 +19,15 @@ import com.relevantcodes.extentreports.LogStatus;
 public class Tests extends Base{
 	
 	
-
+ Logger log = Logger.getLogger(Tests.class);
+ 
 
 	@Test
 	  public void m1() {	
+		
+		log.info("logged in");
 		intialization();
+		log.info("innitlizattion  ddone");
 		 //Assert.fail(); 
 	  }
 	@Test

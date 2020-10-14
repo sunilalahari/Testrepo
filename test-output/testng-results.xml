@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-10-14T04:56:11Z" name="Suite1" finished-at="2020-10-14T04:56:15Z" duration-ms="4132">
+  <suite started-at="2020-10-14T06:21:04Z" name="Suite1" finished-at="2020-10-14T06:21:10Z" duration-ms="6005">
     <groups>
     </groups>
-    <test started-at="2020-10-14T04:56:11Z" name="Regression1" finished-at="2020-10-14T04:56:15Z" duration-ms="4132">
+    <test started-at="2020-10-14T06:21:04Z" name="Regression1" finished-at="2020-10-14T06:21:10Z" duration-ms="6005">
       <class name="Second.Tests">
-        <test-method signature="m1()[pri:0, instance:Second.Tests@c7045b9]" started-at="2020-10-14T04:56:11Z" name="m1" finished-at="2020-10-14T04:56:15Z" duration-ms="4073" status="PASS">
+        <test-method signature="m1()[pri:0, instance:Second.Tests@77128536]" started-at="2020-10-14T06:21:04Z" name="m1" finished-at="2020-10-14T06:21:10Z" duration-ms="5942" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m1 -->
-        <test-method signature="m2()[pri:0, instance:Second.Tests@c7045b9]" started-at="2020-10-14T04:56:15Z" name="m2" finished-at="2020-10-14T04:56:15Z" duration-ms="2" status="PASS">
+        <test-method signature="m2()[pri:0, instance:Second.Tests@77128536]" started-at="2020-10-14T06:21:10Z" name="m2" finished-at="2020-10-14T06:21:10Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m2 -->
-        <test-method signature="m3()[pri:0, instance:Second.Tests@c7045b9]" started-at="2020-10-14T04:56:15Z" name="m3" finished-at="2020-10-14T04:56:15Z" duration-ms="1" status="PASS">
+        <test-method signature="m3()[pri:0, instance:Second.Tests@77128536]" started-at="2020-10-14T06:21:10Z" name="m3" finished-at="2020-10-14T06:21:10Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m3 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Second.Tests@c7045b9]" started-at="2020-10-14T04:56:15Z" name="teardown" finished-at="2020-10-14T04:56:15Z" duration-ms="79" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Second.Tests@77128536]" started-at="2020-10-14T06:21:10Z" name="teardown" finished-at="2020-10-14T06:21:10Z" duration-ms="79" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
