@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.logging.FileHandler;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -15,8 +16,10 @@ public class Base {
 	public static WebDriver driver;
 	public static WebDriverWait wait;
 	public static String Browser = "Chrome";
+	public static Logger log = Logger.getLogger(Base.class);
 	
 	public void intialization() {
+		
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\salahari\\Downloads\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("https://www.google.com");	

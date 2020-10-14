@@ -17,10 +17,7 @@ import com.relevantcodes.extentreports.LogStatus;
 
 //@Listeners(CustomListner.class)
 public class Tests extends Base{
-	
-	
- Logger log = Logger.getLogger(Tests.class);
- 
+
 
 	@Test
 	  public void m1() {	
