@@ -1,12 +1,15 @@
 package Second;
 
+import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.IClass;
 import org.testng.ITestContext;
 import org.testng.ITestNGMethod;
 import org.testng.ITestResult;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
@@ -18,18 +21,21 @@ import com.relevantcodes.extentreports.LogStatus;
 //@Listeners(CustomListner.class)
 public class Tests extends Base{
 
+@BeforeMethod
+public void setup() {
 
+	intialization();
+
+}
 	@Test
 	  public void m1() {	
 		
-		//log.info("logged in");
-		intialization();
-		//log.info("innitlizattion  ddone");
-		 //Assert.fail(); 
+		Assert.assertEquals("Google", driver.getTitle());	
+ 
 	  }
 	@Test
 	public void m2() {
-		System.out.println("Test m2");
+		driver.findElement(By.name("q")).sendKeys("Om Nama Shovaya:");
 		
 	}
 	 
@@ -48,6 +54,10 @@ public class Tests extends Base{
 		}
 		*/
 		
+	}
+	@AfterMethod
+	public void Teardown() {
+		driver.close();
 	}
 	
 	
