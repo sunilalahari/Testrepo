@@ -16,7 +16,7 @@
   <test name="Regression1">
     <classes>
       <class name="Second.Tests"/>
-      <!-- <class name="test.sample.ParameterTest"/> -->
+      <class name="Second.Tests1"/>
     </classes>
   </test>
 </suite>

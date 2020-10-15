@@ -2,24 +2,12 @@ package Second;
 
 import org.openqa.selenium.By;
 import org.testng.Assert;
-import org.testng.IClass;
-import org.testng.ITestContext;
-import org.testng.ITestNGMethod;
-import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-
-import com.relevantcodes.extentreports.ExtentReports;
-import com.relevantcodes.extentreports.ExtentTest;
-import com.relevantcodes.extentreports.LogStatus;
-
-//@Listeners(CustomListner.class)
-public class Tests extends Base{
+public class Tests1 extends Base {
+	
 
 @BeforeMethod
 public void setup() {
@@ -29,12 +17,14 @@ public void setup() {
 }
 	@Test
 	  public void m1() {	
+		System.out.println("Test cases is being executed from Tests1. and Methods is m1");
 		
 		Assert.assertEquals("Google", driver.getTitle());	
  
 	  }
 	@Test
 	public void m2() {
+		System.out.println("Test cases is being executed from Tests1. and Methods is m2");
 		driver.findElement(By.name("q")).sendKeys("Om Nama S"
 				+ "hovaya:");
 		
@@ -42,7 +32,7 @@ public void setup() {
 	 
 	@Test
 	public void m3() {
-		System.out.println("Third");
+		System.out.println("Test cases is being executed from Tests1. and Methods is m3");
 		
 		/*if(result.getStatus()==ITestResult.SUCCESS)
 		{
@@ -63,4 +53,5 @@ public void setup() {
 	}
 	
 	
+
 }
