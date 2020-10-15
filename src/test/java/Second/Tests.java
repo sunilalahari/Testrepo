@@ -31,12 +31,15 @@ public void setup() {
 	  public void m1() {	
 		
 		Assert.assertEquals("Google", driver.getTitle());	
+		
  
 	  }
 	@Test
-	public void m2() {
+	public void m2() throws InterruptedException {
+		Thread.sleep(10000);
 		driver.findElement(By.name("q")).sendKeys("Om Nama S"
 				+ "hovaya:");
+		Thread.sleep(5000);
 		
 	}
 	 

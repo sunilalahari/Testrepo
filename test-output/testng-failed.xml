@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite1]" guice-stage="DEVELOPMENT">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
   <listeners>
     <listener class-name="First.ExtentReporterNG"/>
   </listeners>
   <test thread-count="5" name="Regression1(failed)">
     <classes>
-      <class name="Second.Tests">
+      <class name="Second.Tests1">
         <methods>
+          <include name="m2"/>
+          <include name="setup"/>
+          <include name="Teardown"/>
           <include name="m3"/>
-          <include name="teardown"/>
         </methods>
-      </class> <!-- Second.Tests -->
+      </class> <!-- Second.Tests1 -->
     </classes>
   </test> <!-- Regression1(failed) -->
 </suite> <!-- Failed suite [Suite1] -->
