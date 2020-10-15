@@ -5,6 +5,7 @@
   <version>0.0.1-SNAPSHOT</version>
   <url>http://maven.apache.org</url>
   <build>
+  <!-- added plugin -->
   <plugins>
     
         <plugin>
