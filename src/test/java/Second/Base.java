@@ -25,7 +25,7 @@ public class Base {
 		
 		//System.setProperty("webdriver.chrome.driver","C:\\Users\\salahari\\Downloads\\chromedriver.exe");
 		WebDriverManager.chromedriver().setup();
-		ChromeOptions option= new ChromeOptions();
+		//ChromeOptions option= new ChromeOptions();
 		option.addArguments("headless");
 		option.addArguments("window-size:1400,800");
 		option.addArguments("incognito");
