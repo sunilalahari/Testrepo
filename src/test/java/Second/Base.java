@@ -4,6 +4,9 @@ import java.io.File;
 import java.io.IOException;
 import java.util.logging.FileHandler;
 
+import javax.tools.JavaFileManager;
+
+import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -37,17 +40,27 @@ public class Base {
 		driver.get("https://www.google.com");	
 		
 	}
-	public void takescreenhostFail(String TestCaseName) throws IOException {
+	public String takescreenhostFail(String TestCaseName) throws IOException {
 		File Source =((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		org.openqa.selenium.io.FileHandler.copy(Source, new File("C:\\Users\\salahari\\eclipse-workspace\\test\\screenshots\\Failed"+TestCaseName+".jpg"));
+		File DestFile = new File("C:\\Users\\salahari\\eclipse-workspace\\test\\screenshots\\Failed"+TestCaseName+".jpg");
+		FileUtils.copyFile(Source, DestFile);
+		return DestFile.toString();
 		
 	}
-	public void takescreenhostPass(String TestCaseName) throws IOException {
+	public String takescreenhostPass(String TestCaseName) throws IOException {
 		File Source =((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		org.openqa.selenium.io.FileHandler.copy(Source, new File("C:\\Users\\salahari\\eclipse-workspace\\test\\screenshots\\passed\\"+TestCaseName+".jpg"));
+		File DestFile = new File("C:\\Users\\salahari\\eclipse-workspace\\test\\screenshots\\passed\\"+TestCaseName+".jpg");
+		FileUtils.copyFile(Source, DestFile);
+		return DestFile.toString();
+		
 		
 	}
-	
+	public void takesScreenshotSkip(String TestCaseName) throws IOException {
+		TakesScreenshot ts = (TakesScreenshot)driver;
+		File SrcFile =ts.getScreenshotAs(OutputType.FILE);
+		FileUtils.copyFile(SrcFile, new File("C:\\Users\\salahari\\eclipse-workspace\\test\\screenshots\\passed\\"+TestCaseName+".jpg"));
+		
+	}
 	
 	
 }

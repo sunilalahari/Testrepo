@@ -17,7 +17,7 @@
   <test name="Regression1">
     <classes>
       <class name="Second.Tests"/>
-      <class name="Second.Tests1"/>
+      <!--<class name="Second.Tests1"/>   -->
     </classes>
   </test>
 </suite>
