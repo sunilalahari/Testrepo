@@ -1,270 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="1" ignored="0" total="6" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="42571" started-at="2020-10-15T13:23:49Z" finished-at="2020-10-15T13:24:32Z">
+  <suite name="Suite1" duration-ms="34643" started-at="2020-10-16T05:05:00Z" finished-at="2020-10-16T05:05:35Z">
     <groups>
     </groups>
-    <test name="Regression1" duration-ms="42571" started-at="2020-10-15T13:23:49Z" finished-at="2020-10-15T13:24:32Z">
+    <test name="Regression1" duration-ms="34643" started-at="2020-10-16T05:05:00Z" finished-at="2020-10-16T05:05:35Z">
       <class name="Second.Tests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Second.Tests@47d90b9e]" name="setup" is-config="true" duration-ms="6357" started-at="2020-10-15T13:23:50Z" finished-at="2020-10-15T13:23:56Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Second.Tests@47d90b9e]" name="setup" is-config="true" duration-ms="3397" started-at="2020-10-16T05:05:00Z" finished-at="2020-10-16T05:05:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="m1()[pri:0, instance:Second.Tests@47d90b9e]" name="m1" duration-ms="43" started-at="2020-10-15T13:23:56Z" finished-at="2020-10-15T13:23:56Z">
+        <test-method status="PASS" signature="m1()[pri:0, instance:Second.Tests@47d90b9e]" name="m1" duration-ms="15" started-at="2020-10-16T05:05:03Z" finished-at="2020-10-16T05:05:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m1 -->
-        <test-method status="PASS" signature="Teardown()[pri:0, instance:Second.Tests@47d90b9e]" name="Teardown" is-config="true" duration-ms="139" started-at="2020-10-15T13:23:56Z" finished-at="2020-10-15T13:23:56Z">
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:Second.Tests@47d90b9e]" name="Teardown" is-config="true" duration-ms="45" started-at="2020-10-16T05:05:03Z" finished-at="2020-10-16T05:05:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:Second.Tests@47d90b9e]" name="setup" is-config="true" duration-ms="4823" started-at="2020-10-15T13:23:56Z" finished-at="2020-10-15T13:24:01Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Second.Tests@47d90b9e]" name="setup" is-config="true" duration-ms="2847" started-at="2020-10-16T05:05:04Z" finished-at="2020-10-16T05:05:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="m2()[pri:0, instance:Second.Tests@47d90b9e]" name="m2" duration-ms="15222" started-at="2020-10-15T13:24:01Z" finished-at="2020-10-15T13:24:16Z">
+        <test-method status="PASS" signature="m2()[pri:0, instance:Second.Tests@47d90b9e]" name="m2" duration-ms="15225" started-at="2020-10-16T05:05:06Z" finished-at="2020-10-16T05:05:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m2 -->
-        <test-method status="PASS" signature="Teardown()[pri:0, instance:Second.Tests@47d90b9e]" name="Teardown" is-config="true" duration-ms="131" started-at="2020-10-15T13:24:16Z" finished-at="2020-10-15T13:24:16Z">
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:Second.Tests@47d90b9e]" name="Teardown" is-config="true" duration-ms="64" started-at="2020-10-16T05:05:22Z" finished-at="2020-10-16T05:05:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:Second.Tests@47d90b9e]" name="setup" is-config="true" duration-ms="3905" started-at="2020-10-15T13:24:16Z" finished-at="2020-10-15T13:24:20Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Second.Tests@47d90b9e]" name="setup" is-config="true" duration-ms="3256" started-at="2020-10-16T05:05:22Z" finished-at="2020-10-16T05:05:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="m3()[pri:0, instance:Second.Tests@47d90b9e]" name="m3" duration-ms="2" started-at="2020-10-15T13:24:20Z" finished-at="2020-10-15T13:24:20Z">
+        <test-method status="PASS" signature="m3()[pri:0, instance:Second.Tests@47d90b9e]" name="m3" duration-ms="3" started-at="2020-10-16T05:05:25Z" finished-at="2020-10-16T05:05:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m3 -->
-        <test-method status="PASS" signature="Teardown()[pri:0, instance:Second.Tests@47d90b9e]" name="Teardown" is-config="true" duration-ms="131" started-at="2020-10-15T13:24:20Z" finished-at="2020-10-15T13:24:20Z">
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:Second.Tests@47d90b9e]" name="Teardown" is-config="true" duration-ms="94" started-at="2020-10-16T05:05:25Z" finished-at="2020-10-16T05:05:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
       </class> <!-- Second.Tests -->
       <class name="Second.Tests1">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Second.Tests1@1184ab05]" name="setup" is-config="true" duration-ms="4100" started-at="2020-10-15T13:24:20Z" finished-at="2020-10-15T13:24:24Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Second.Tests1@1184ab05]" name="setup" is-config="true" duration-ms="2982" started-at="2020-10-16T05:05:25Z" finished-at="2020-10-16T05:05:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="m1()[pri:0, instance:Second.Tests1@1184ab05]" name="m1" duration-ms="13" started-at="2020-10-15T13:24:24Z" finished-at="2020-10-15T13:24:24Z">
+        <test-method status="PASS" signature="m1()[pri:0, instance:Second.Tests1@1184ab05]" name="m1" duration-ms="9" started-at="2020-10-16T05:05:28Z" finished-at="2020-10-16T05:05:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m1 -->
-        <test-method status="PASS" signature="Teardown()[pri:0, instance:Second.Tests1@1184ab05]" name="Teardown" is-config="true" duration-ms="93" started-at="2020-10-15T13:24:24Z" finished-at="2020-10-15T13:24:24Z">
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:Second.Tests1@1184ab05]" name="Teardown" is-config="true" duration-ms="32" started-at="2020-10-16T05:05:28Z" finished-at="2020-10-16T05:05:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:Second.Tests1@1184ab05]" name="setup" is-config="true" duration-ms="3200" started-at="2020-10-15T13:24:24Z" finished-at="2020-10-15T13:24:28Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Second.Tests1@1184ab05]" name="setup" is-config="true" duration-ms="3416" started-at="2020-10-16T05:05:28Z" finished-at="2020-10-16T05:05:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="m2()[pri:0, instance:Second.Tests1@1184ab05]" name="m2" duration-ms="4082" started-at="2020-10-15T13:24:28Z" finished-at="2020-10-15T13:24:32Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[chrome not reachable
-  (Session info: chrome=86.0.4240.75)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'USHYDSALAHARI9', ip: '192.168.0.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\salahari\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54518}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 381db41db85f846a87652e8f184d38b7
-*** Element info: {Using=name, value=q}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=86.0.4240.75)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'USHYDSALAHARI9', ip: '192.168.0.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\salahari\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54518}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 381db41db85f846a87652e8f184d38b7
-*** Element info: {Using=name, value=q}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
-at org.openqa.selenium.By$ByName.findElement(By.java:284)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at Second.Tests1.m2(Tests1.java:28)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method status="PASS" signature="m2()[pri:0, instance:Second.Tests1@1184ab05]" name="m2" duration-ms="174" started-at="2020-10-16T05:05:31Z" finished-at="2020-10-16T05:05:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m2 -->
-        <test-method status="FAIL" signature="Teardown()[pri:0, instance:Second.Tests1@1184ab05]" name="Teardown" is-config="true" duration-ms="209" started-at="2020-10-15T13:24:32Z" finished-at="2020-10-15T13:24:32Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[chrome not reachable
-  (Session info: chrome=86.0.4240.75)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'USHYDSALAHARI9', ip: '192.168.0.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\salahari\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54518}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 381db41db85f846a87652e8f184d38b7]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=86.0.4240.75)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'USHYDSALAHARI9', ip: '192.168.0.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\salahari\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54518}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 381db41db85f846a87652e8f184d38b7
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
-at Second.Tests1.Teardown(Tests1.java:52)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:Second.Tests1@1184ab05]" name="Teardown" is-config="true" duration-ms="45" started-at="2020-10-16T05:05:32Z" finished-at="2020-10-16T05:05:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
-        <test-method status="SKIP" signature="setup()[pri:0, instance:Second.Tests1@1184ab05]" name="setup" is-config="true" duration-ms="0" started-at="2020-10-15T13:24:32Z" finished-at="2020-10-15T13:24:32Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Second.Tests1@1184ab05]" name="setup" is-config="true" duration-ms="2934" started-at="2020-10-16T05:05:32Z" finished-at="2020-10-16T05:05:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="m3()[pri:0, instance:Second.Tests1@1184ab05]" name="m3" duration-ms="0" started-at="2020-10-15T13:24:32Z" finished-at="2020-10-15T13:24:32Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[chrome not reachable
-  (Session info: chrome=86.0.4240.75)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'USHYDSALAHARI9', ip: '192.168.0.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\salahari\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54518}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 381db41db85f846a87652e8f184d38b7]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=86.0.4240.75)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'USHYDSALAHARI9', ip: '192.168.0.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\salahari\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54518}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 381db41db85f846a87652e8f184d38b7
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
-at Second.Tests1.Teardown(Tests1.java:52)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method status="PASS" signature="m3()[pri:0, instance:Second.Tests1@1184ab05]" name="m3" duration-ms="1" started-at="2020-10-16T05:05:35Z" finished-at="2020-10-16T05:05:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m3 -->
-        <test-method status="SKIP" signature="Teardown()[pri:0, instance:Second.Tests1@1184ab05]" name="Teardown" is-config="true" duration-ms="0" started-at="2020-10-15T13:24:32Z" finished-at="2020-10-15T13:24:32Z">
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:Second.Tests1@1184ab05]" name="Teardown" is-config="true" duration-ms="52" started-at="2020-10-16T05:05:35Z" finished-at="2020-10-16T05:05:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->

@@ -9,6 +9,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -24,7 +25,15 @@ public class Base {
 		
 		//System.setProperty("webdriver.chrome.driver","C:\\Users\\salahari\\Downloads\\chromedriver.exe");
 		WebDriverManager.chromedriver().setup();
-		driver = new ChromeDriver();
+		ChromeOptions option= new ChromeOptions();
+		option.addArguments("headless");
+		option.addArguments("window-size:1400,800");
+		option.addArguments("incognito");
+		option.addArguments("start-maximized");
+		option.addArguments("disable-infobars");
+		option.addArguments("disable-popup-blocking");
+		driver = new ChromeDriver(option);
+		
 		driver.get("https://www.google.com");	
 		
 	}
